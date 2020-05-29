@@ -234,12 +234,17 @@ span .announcement {
   color: black;
 }
 
+h3, p {
+  margin-left: 30px;
+}
+
 .about .one-third, 
 .about .two-thirds {
   background: white;
   background: rgba(255,255,255,.3);
   padding: 10px;
   border-radius: 5px;
+   /* margin-left: 30px; */
 }
 
 .about .one-third {
@@ -344,7 +349,7 @@ span .announcement {
 
 .contact .btn-blue:after {
   position: absolute;
-  content: '☃';
+  /* content: '☃'; */
   top: 5px;
   right: 30px;
   font-size: 1.6em;
@@ -415,6 +420,7 @@ span .announcement {
 
   .about .one-third {
     margin-top: 0;
+    /* margin-left: 30px; */
   }
   
   .about .one-third a {
