@@ -143,21 +143,19 @@ nav li:nth-child(2n+1) a:after {
 .grad {
   text-align: center;
   width: 100%;
-  padding-top: 400px;
-  padding-bottom: 400px;
- 
+  padding-top: 40%;
+  padding-bottom: 40%;
+}
+
+.grad img{
+  width: 100%;
 }
 
 nav h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-}
-
-.offset {
-  padding-left: 400px;
-  color: red;  
-  /* 2f427f */
+  font-size: 3em;
+  
 }
 
 h1.cameron {
@@ -292,8 +290,8 @@ h3, p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* todo: other pic, add fill, right justify open house */
 .contact {
-  background: url("img/IMG_7184.JPG") no-repeat fixed center / cover;
-  /* background: url("img/IMG_7236f2.JPG") no-repeat fixed center / cover;  */
+  /* background: url("img/IMG_7184.JPG") no-repeat fixed center / cover; */
+  background: url("img/IMG_7236f2.JPG") no-repeat fixed center / cover; 
   color: black;
   text-align: center;
 }
@@ -379,11 +377,15 @@ h3, p {
 }
 
 
+.test.one-third.column {
+    width: 30.6666666667%;
+}
+
 
 /* MEDIA QUERIES STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media (min-width: 550px) {
+@media (min-width: 400px) {
 
   nav li {
     width: auto;
@@ -405,6 +407,10 @@ h3, p {
 
   nav li:last-child a {
     border-right: none;
+  }
+
+  nav h1{
+    font-size: 30px;
   }
 
   header a:hover, .about a:hover {
@@ -430,12 +436,37 @@ h3, p {
   .contact .creator a {
     box-shadow: none;
   }
+  
+  .contact h4 {
+    color: white;
+  }
+
+  .contact .address {
+
+  }
+
+  
+.grad img {
+  width: 100%;
+}
+
+
+.offset {
+  padding-left: 45%;
+width: 35%; 
+font-size: 1.5em;
+  /* 2f427f */
+}
 
 }
 
 
 
 @media (min-width: 750px) {
+  
+.grad img {
+  width: 100%;
+}
 
   h1 {
     font-size: 3.5rem;
@@ -463,5 +494,20 @@ h3, p {
   .contact ul span {
     font-size: 3em;
   }
+  .offset {
+    padding-left: 45%;
+  width: 35%; 
+  font-size: 2.8em;
+    /* 2f427f */
+  }
+
+  nav h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+  
+  }
+  
+
 
 }
