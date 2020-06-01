@@ -143,8 +143,8 @@ nav li:nth-child(2n+1) a:after {
 .grad {
   text-align: center;
   width: 100%;
-  padding-top: 40%;
-  padding-bottom: 40%;
+  padding-top: 30%;
+  padding-bottom: 30%;
 }
 
 .grad img{
@@ -410,7 +410,7 @@ h3, p {
   }
 
   nav h1{
-    font-size: 1.5em;
+    font-size: 30px;
   }
 
   header a:hover, .about a:hover {
@@ -445,6 +445,12 @@ h3, p {
 
   }
 
+  .grad {
+    text-align: center;
+    width: 100%;
+    padding-top: 40%;
+    padding-bottom: 40%;
+  }
   
 .grad img {
   width: 100%;
@@ -508,6 +514,12 @@ font-size: 1.5em;
   
   }
   
+  .grad {
+    text-align: center;
+    width: 100%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
 
 
 }
