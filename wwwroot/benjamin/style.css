@@ -17,11 +17,13 @@ font-family: Lasiver-Medium, HelveticaNeue-CondensedBold, Helvetica, Helmut, Ari
   color: white;
   max-width: 100%;
   min-width: 300px;
-  height: auto;
+  min-height: 100%;
+  /* height: auto; */
 }
 
 img {
   object-fit: scale-down; max-width: 100%
+  /* object-fit: scale-down; max-height: 100% */
   /* max-width: 100%;
   min-width: 300px;
   height: auto; */
@@ -99,11 +101,11 @@ header a:hover, .about a:hover {
 }
 
 header .btn, .services {
-  /* margin-top: 10px; */
+  margin-top: 10px;
 }
 
 header {
-  padding: 0px 0 150px;
+  /* padding: 0px 0 150px; */
 }
 
 .about, .contact {
@@ -111,8 +113,10 @@ header {
 }
 
 header {
-  background: url("img_ben/837A0518_yellow_1200.jpg") no-repeat fixed center / cover;
+  background: url("img_ben/try5.jpg") no-repeat fixed center / cover;
+  
   text-align: right;
+  height: 100%;
 }
 
 header h1 i {
